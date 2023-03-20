@@ -1,5 +1,6 @@
-function romanos(){
-    return "I";
+function romanos(num){
+    if(num==1)  return "I";
+    if(num==2) return "II";
   }
 
   export default romanos;
