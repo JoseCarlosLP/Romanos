@@ -22,6 +22,9 @@ describe("Romanos", () => {
   it("numero romano para el 8", () => {
     expect(romanosHasta9(8)).toEqual("VIII");
   });
+  it("numero romano para el 9", () => {
+    expect(romanosHasta9(9)).toEqual("IX");
+  });
 });
 
 
