@@ -25,7 +25,8 @@ function romanos(num){
     base=Math.trunc(base);
     var romano="";
     if(base>0) {
-        romano="X";
+        if(base==1) romano="X";
+        if(base==2) romano="XX";
     }
     if(res>0) romano=romano+romanosHasta9(res);
     return romano;

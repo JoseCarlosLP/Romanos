@@ -31,6 +31,12 @@ describe("Romanos", () => {
   it("numero romano para el 19", () => {
     expect(romanos(19)).toEqual("XIX");
   });
+  it("numero romano para el 20", () => {
+    expect(romanos(20)).toEqual("XX");
+  });
+  it("numero romano para el 24", () => {
+    expect(romanos(24)).toEqual("XXIV");
+  });
 });
 
 
