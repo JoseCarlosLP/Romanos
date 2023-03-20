@@ -1,6 +1,9 @@
-function romanos(num){
-    if(num==1)  return "I";
-    if(num==2) return "II";
+function romanosHasta9(num){
+    let romano="";
+    for(let i=1;i<=num;i++){
+        romano=romano+"I";
+    }
+    return romano;
   }
 
-  export default romanos;
+  export default romanosHasta9;
