@@ -10,6 +10,9 @@ describe("Romanos", () => {
   it("numero romano para el 3", () => {
     expect(romanosHasta9(3)).toEqual("III");
   });
+  it("numero romano para el 4", () => {
+    expect(romanosHasta9(4)).toEqual("IV");
+  });
 });
 
 
