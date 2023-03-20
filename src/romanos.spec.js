@@ -46,6 +46,12 @@ describe("Romanos", () => {
   it("numero romano para el 58", () => {
     expect(romanos(58)).toEqual("LVIII");
   });
+  it("numero romano para el 79", () => {
+    expect(romanos(79)).toEqual("LXXIX");
+  });
+  it("numero romano para el 60", () => {
+    expect(romanos(60)).toEqual("LX");
+  });
 });
 
 
