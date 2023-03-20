@@ -43,6 +43,9 @@ describe("Romanos", () => {
   it("numero romano para el 44", () => {
     expect(romanos(44)).toEqual("XLIV");
   });
+  it("numero romano para el 58", () => {
+    expect(romanos(58)).toEqual("LVIII");
+  });
 });
 
 
