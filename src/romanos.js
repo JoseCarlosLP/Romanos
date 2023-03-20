@@ -28,6 +28,7 @@ function romanos(num){
         if(base==1) romano="X";
         if(base==2) romano="XX";
         if(base==3) romano="XXX";
+        if(base==4) romano="XL";
     }
     if(res>0) romano=romano+romanosHasta9(res);
     return romano;

@@ -40,6 +40,9 @@ describe("Romanos", () => {
   it("numero romano para el 31", () => {
     expect(romanos(31)).toEqual("XXXI");
   });
+  it("numero romano para el 44", () => {
+    expect(romanos(44)).toEqual("XLIV");
+  });
 });
 
 
