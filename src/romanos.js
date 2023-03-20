@@ -19,5 +19,17 @@ function romanosHasta9(num){
   }
 
 
+function romanos(num){
+    var res=num%10;
+    var base=num/10;
+    base=Math.trunc(base);
+    var romano="";
+    if(base>0) {
+        romano="X";
+    }
+    if(res>0) romano=romano+romanosHasta9(res);
+    return romano;
+}
 
-export default romanosHasta9;
+
+export default romanos;

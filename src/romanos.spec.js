@@ -1,29 +1,35 @@
-import romanosHasta9 from "./romanos";
+import romanos from "./romanos";
 
 describe("Romanos", () => {
   it("numero romano para el 1", () => {
-    expect(romanosHasta9(1)).toEqual("I");
+    expect(romanos(1)).toEqual("I");
   });
   it("numero romano para el 2", () => {
-    expect(romanosHasta9(2)).toEqual("II");
+    expect(romanos(2)).toEqual("II");
   });
   it("numero romano para el 3", () => {
-    expect(romanosHasta9(3)).toEqual("III");
+    expect(romanos(3)).toEqual("III");
   });
   it("numero romano para el 4", () => {
-    expect(romanosHasta9(4)).toEqual("IV");
+    expect(romanos(4)).toEqual("IV");
   });
   it("numero romano para el 5", () => {
-    expect(romanosHasta9(5)).toEqual("V");
+    expect(romanos(5)).toEqual("V");
   });
   it("numero romano para el 6", () => {
-    expect(romanosHasta9(6)).toEqual("VI");
+    expect(romanos(6)).toEqual("VI");
   });
   it("numero romano para el 8", () => {
-    expect(romanosHasta9(8)).toEqual("VIII");
+    expect(romanos(8)).toEqual("VIII");
   });
   it("numero romano para el 9", () => {
-    expect(romanosHasta9(9)).toEqual("IX");
+    expect(romanos(9)).toEqual("IX");
+  });
+  it("numero romano para el 10", () => {
+    expect(romanos(10)).toEqual("X");
+  });
+  it("numero romano para el 19", () => {
+    expect(romanos(19)).toEqual("XIX");
   });
 });
 
